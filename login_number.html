@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>getStarted</title>
+	<link rel="stylesheet" href="css/login_number.css">
+</head>
+<body>
+	<div class="container">
+		<div class="flex-row">
+			<div class="slant-top">
+				<img src="assets/Bg.png">
+                <img src="assets/Bg 2.3.png">
+                <img src="assets/object 3.png">
+			</div>
+        </div>
+        <div class="down">
+            <h4>
+                LOGIN
+            </h4>
+            <form class="form">
+                <label>Enter Your Mobile Number</label><br>
+                <div id="input-wrapper">
+                    <label for="number">+91 |</label>
+                    <input id='number' onchange="this.value = '+91' + this.value" type="text">
+                </div>
+            </form>
+            <div class="otp">
+                <p>VERIFY OTP</p>
+                <input id="partitioned" type="text" maxlength="6" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
