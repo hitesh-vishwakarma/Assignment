@@ -1,0 +1,94 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.container{
+	width: 350px;
+	height: 730px;
+	border: 15px solid #465365;
+	border-radius: 50px;
+	position: relative;
+	overflow: hidden;
+}
+div.flex-row
+{
+	transform: translateX(-15px);
+}
+div.slant-top img:first-child{
+	height: 700px;
+	position: absolute;
+}
+div.slant-top img:nth-child(2){
+	width: 325px;
+	height: auto;
+	position: absolute;
+	transform: translate(-3px,-3px);
+}
+div.slant-top img:last-child
+{
+	width: 100px;
+	height: auto;
+	position: absolute;
+	transform: translate(100px,100px);
+}
+div.hurry{
+	position: absolute;
+	transform: translate(20px,270px);
+	color: black;
+}
+div.hurry h3{
+	transform: translateY(10px);
+}
+div.hurry p{
+	font-weight: 500;
+	font-style: italic;
+}
+div.button-img
+{	
+	position: absolute;
+	transform: translateY(480px);
+	margin: 0px 33px;
+	text-align: center;
+}
+div.button-img img
+{
+	width: 250px;
+}
+div.button-text
+{
+	transform: translate(0px,-30px);
+	font-size: 8px;
+	line-height: 1;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div.button-text p span
+{
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+div.login button
+{
+	transform: translateY(-35px);
+	font-size: 15x;
+	padding: 5px 40px;
+	border-radius: 10px;
+	border-width: 2px;
+	background-color: white;
+	border-color: wheat;
+}
+div.login button:last-child
+{
+	padding: 8px 48px;
+	font-size: 10px;
+}
+div.login button:last-child span{
+	font-size: 10px;
+	color:#fd7e14;
+	font-weight: bold;
+	font-family: sans-serif;
+}
